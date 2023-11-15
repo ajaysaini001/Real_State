@@ -1,0 +1,163 @@
+.property{
+    width: 100%;
+    .content{
+        width: 100%;
+        .page{
+            margin-top: -20rem;
+            color: white;
+            display: flex;;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-weight:800;
+            h5{
+                background-color: white;
+                color: black;
+                width: 200px;
+                height: 33px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            h1{
+                font-size: 45px;
+            }
+
+        }
+        .submit{
+            margin: 0 auto;
+            margin-top: 10rem;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            
+            .btn1{
+                width: 130px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: orangered;
+                color: white;
+                font-size: 17px;
+                font-weight: 600;
+                
+            }
+            
+        }
+        .card{
+            display: flex;
+            // justify-content: space-around;
+            flex-wrap: wrap;
+            width: 85;
+            margin-left: 5rem;
+            // margin-left: 4rem;
+            // margin-top: 15rem;
+
+            gap: 8rem;
+            .details{
+                width: 20%;
+                margin-top: 70px;
+                display: block;
+                gap: 5rem;
+                margin-left: 20px;
+                .image{
+                    width: 100%;
+                    img{
+                        width:270px;
+                    }
+
+                }
+                
+                .rate{
+                    margin-top: 15px;
+                    width: 270px;
+                    display: flex;
+                    justify-content: space-between;
+                    .name{
+                        width: 120px;
+                        height: 35px;
+                        border-radius: 5px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 18px;
+                        font-weight: 600;
+                        // padding: 5px;
+                        background-color: pink;
+                    }
+                    .price{
+                        color: orangered;
+                        font-size: 22px;
+                        font-weight: 800;
+                    }
+                }
+                h2{
+                    width: 300px;
+                    margin-top: 30px;
+                    font-size: 20px;
+                    font-weight: 800;
+
+                }
+                .bedroom{
+                    margin-top: 30px;
+                    width: 300px;
+                    display: flex;
+                    gap: 10rem;  
+                    font-size: 23px;
+                    opacity: 0.6;
+                    line-height: 40px;
+                    font-weight: 700;
+                    font-style:normal;
+                    
+                    
+                    
+                }
+                .visit{
+                    margin-top: 50px;
+                    margin-left: 5rem;
+                    .visitbtn{
+                    background-color: black;
+                    color: white;
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 30px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    }
+                }
+
+            }
+        }
+        .enter{
+            margin-top: 10rem;
+            width: 100%;
+            .change{
+                width: 270px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                // background-color: black;
+                // color: white;
+                .num{
+                    background-color: black;
+                    width: 50px;
+                    height: 50px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-style: none;
+                    border-radius: 50px;
+                    
+                }
+                .num:hover{
+                    background-color: orangered;
+
+                }
+                .num::selection{
+                    background-color: red;
+                    
+                }
+            }
+        }
+    }
+}

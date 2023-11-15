@@ -1,0 +1,178 @@
+.info{
+    width: 100%;
+    margin-top: 30rem;
+    // overflow: hidden;
+    .page{
+        margin-top: -20rem;
+        color: white;
+        display: flex;;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-weight:800;
+        h5{
+            background-color: white;
+            color: black;
+            width: 200px;
+            height: 33px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 45px;
+        }
+
+    }
+    .content{
+        display: flex;
+       margin-top: 10rem;
+    //    justify-content: space-evenly;
+    //    gap: 5rem;
+    //    margin-left: 5rem;
+       width: 120%;
+    //    object-fit: contain;
+        .left{
+            margin: 0 auto;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-left: 40px;
+            h3{
+                font-size: 15px;
+                color: red;
+            }
+            h1{
+                font-size: 40px;
+                font-weight: 800;
+                text-transform: capitalize;
+                margin-top: 20px;
+                line-height: 56px;
+            }
+            p{
+                font-size: 19px;
+                line-height: 28px;
+                color: #4a4a4a;
+            }
+            .box{
+               
+                border: 1px solid black;
+                display: flex;
+                flex-direction: column;
+                
+                gap: 30px;
+                border-style: none;
+                .dial{
+                    box-shadow:5px 10px 20px #888888;
+                    border-radius: 10px;
+                    width: 400px;
+                    height: 140px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid grey;
+                    gap: 30px;
+                
+                    .ph{
+                        display: flex;
+                        flex-direction: column;
+                        h2{
+                            margin-top: 20px;
+                        }
+                        p{
+                            margin-bottom: 10px;
+                        }
+
+                        
+                    }
+                }
+                .mail{
+                    width: 400px;
+                    height: 140px;
+                    border-radius: 10px;
+                    box-shadow:5px 10px 20px #888888;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid grey;
+                    gap: 30px;
+                  
+                    .ph{
+                        display: flex;
+                        flex-direction: column;
+                        
+                    }
+                }
+
+            }
+           
+        }
+        .right{
+            margin: 0 auto;
+            margin-left: -12rem;
+            width:30%;
+            border-radius: 10px;
+            box-shadow:10px 10px 30px #888888;
+            .myform{
+                
+                gap: 15px;
+                display: flex;
+                flex-direction: column;
+                margin: 30px;
+                width: 50%;
+                .lbl{
+                    font-size: 15px;
+                    color: #3a3a3a;
+                    margin-bottom: 15px;
+                }
+                .txt{
+                    margin: 0 auto;
+                    width: 140%;
+                    height: 50px;
+                    border-radius: 22px;
+                    background-color: #f6f6f6;
+                    border: none;
+                    margin-bottom: 30px;
+                    font-size: 14px;
+                    padding: 0px 15px;
+                }
+                .msg{
+                    width: 90%;
+                    // margin: auto;
+                    height: 150px;
+                    max-height: 180px;
+                    border-radius: 22px;
+                    background-color: #f6f6f6;
+                    border: none;
+                    margin-bottom: 40px;
+                    font-size: 14px;
+                    padding: 15px 15px;
+                
+                }
+            }
+        }
+        .btn{
+            width: 170px;
+            height: 50px;
+            border-style: none;
+            background-color: black;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 30px;
+            .btn:hover{
+                background-color: orangered;
+            }
+
+        }
+        
+        
+    }
+    .map{
+        margin-top: 5rem;
+        width: 100%;
+        height: 100px;
+      
+    }
+}
